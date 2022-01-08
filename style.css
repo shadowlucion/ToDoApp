@@ -1,0 +1,51 @@
+body {
+  background-color: #fafafa;
+  color: #1d1f20;
+  font-family: "Raleway", sans-serif;
+}
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+.upper {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+ul.taskList > li {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+ul.taskList {
+  /* counter-reset: gradient-counter; */
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+}
+ul.taskList > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  /* counter-increment: gradient-counter; */
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+  display: flex;
+}
+
+.doneButton {
+  margin-left: auto;
+}
+.taskLabel {
+  text-transform: uppercase;
+  margin-left: 10px;
+}
